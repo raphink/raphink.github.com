@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Raphink's open-source projects by raphink</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>Raphink's open-source projects</h1>
+        <p>My contributions to open-source</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/raphink" class="button fork"><strong>View On GitHub</strong></a>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <p>Over the last few years, my interest and involvment in open-source projects have evolved:</p>
+
+<h1>Desktop years</h1>
+
+<p>Between 2005 and 2007, I was mostly involved in Ubuntu, and contributed to packaging KDE apps for Kubuntu and administrating <a href="http://revu.ubuntuwire.com/">revu</a> (RIP);</p>
+
+<h1>Sysadmin years</h1>
+
+<p>I started working as a sysadmin in 2006, and since then focused my contribution more on server-side code.</p>
+
+<h2>Augeas</h2>
+
+<p>I have been involved in the <a href="http://augeas.net">Augeas</a> project since 2007. My work in Augeas has been mostly to write lenses for common Unix configuration files. As such, my main language of contribution has been the <a href="https://www.ohloh.net/languages/augeas">Augeas language</a> itself.</p>
+
+<p>Over the last few years, I also added C code to this project, the main part being the XML export API call.</p>
+
+<p>I maintain Augeas packages in Ubuntu (and a <a href="https://launchpad.net/%7Eraphink/+archive/augeas">PPA for new versions</a>).</p>
+
+<p>In 2011, I have begun writing an open-source <a href="https://github.com/raphink/Augeas-book">book about Augeas</a>, which is still a work in progress.</p>
+
+<h2>Perl</h2>
+
+<p>In the first company where I worked as a sysadmin, Perl was used a lot (now it's mostly Ruby). I got used to writing tools (and sometimes whole programs) in Perl, some of which I contributed back to the <a href="http://search.cpan.org/%7Eraphink/">CPAN</a>:</p>
+
+<ul>
+<li>
+<a href="http://search.cpan.org/%7Eraphink/Config-Augeas-Exporter-v1.0.0/">Config::Augeas::Exporter</a>, a module to export the Augeas to various format. This was mostly used as a prototype for the XML export API call in Augeas, now rewritten in C;</li>
+<li>
+<a href="http://search.cpan.org/%7Eraphink/Config-Augeas-Validator-1.300/">Config::Augeas::Validator</a>, a tool to validate configuration files using Augeas. I plan to port this to Ruby and integrate it in Puppet;</li>
+<li>
+<a href="http://search.cpan.org/%7Eraphink/Config-KingKong-0.002/">Config::KingKong</a>, a simple templating tool to generate configuration files;</li>
+<li>
+<a href="http://search.cpan.org/%7Eraphink/Reprepro-Uploaders-0.004/">Reprepro::Uploaders</a>, a module that emulates <a href="http://mirrorer.alioth.debian.org/">reprepro</a> upload rights.</li>
+</ul><p>Since 2011, I also co-maintain the <a href="http://search.cpan.org/%7Eraphink/Config-Augeas-0.903/">Config::Augeas</a> module (Perl bindings for Augeas) with <a href="http://search.cpan.org/%7Eddumont/">Dominique Dumont</a>.</p>
+
+<p>Another Perl project, <a href="https://launchpad.net/diathica">Diathica</a> is a Twitter/Identica Bible bot.</p>
+
+<h2>Puppet</h2>
+
+<p>I have been interested in <a href="http://puppetlabs.com">Puppet</a> since 2006. The company I worked for at the time was not interested in replacing Cfengine with it, so I mostly played with it on my own.</p>
+
+<p>Since April 2012, I have the pleasure of working for <a href="http://www.camptocamp.com">a company</a> that has been using Puppet for years, and knows the value of <a href="http://github.com/camptocamp">contributing back</a>.</p>
+
+<p>For this reason, I am recently contributing more and more Puppet code through my daily sysadmin hacking.</p>
+
+<h2>LaTeX</h2>
+
+<p>I started translating books and publishing them in 2011. The more I dove into LaTeX, the more I enjoyed the power of it. On my path to publishing, I released a few modules to <a href="http://www.ctan.org/author/id/pinson">CTAN</a>:</p>
+
+<ul>
+<li>
+<a href="http://www.ctan.org/pkg/fancytabs">fancytabs</a> was created to add shaded smart tabs to <a href="https://github.com/cc-translators/sagesse">a book</a> I am in the process of publishing;</li>
+<li>
+<a href="http://www.ctan.org/pkg/fontbook">fontbook</a> helps to generate a font book in XeTeX/LuaTeX;</li>
+<li>
+<a href="http://www.ctan.org/pkg/impnattypo">impnattypo</a> implements French typography recommendations, making heavy use of LuaTeX;</li>
+<li>
+<a href="http://www.ctan.org/pkg/moderntimeline">moderntimeline</a> is an extension to <a href="http://www.ctan.org/tex-archive/macros/latex/contrib/moderncv/">moderncv</a> that provides timeline support in a CV;</li>
+<li>
+<a href="http://www.ctan.org/pkg/nowidow">nowidow</a> provides helpers to manage widows and orphans;</li>
+<li>
+<a href="http://www.ctan.org/pkg/babyloniannum">babyloniannum</a> implements Babylonian numerals;</li>
+<li>
+<a href="https://github.com/raphink/coloredlettrine">coloredlettrine</a> is an attempt to create bicolor initials using LaTeX and the <a href="http://www.georgduffner.at/ebgaramond">EB Garamond</a> font.</li>
+</ul><p>Most of these packages were implemented as answers to questions on <a href="tex.stackexchange.com/users/951/raphink">tex.stackexchange.com</a>, either my own questions or other people's.</p>
+
+<p>I also co-maintain the <a href="http://www.ctan.org/pkg/bibleref-french">bibleref-french</a> package with <a href="http://www.ctan.org/author/id/rouquette">Maïeul Rouquette</a>.</p>
+
+<h2>Wave</h2>
+
+<p>In 2008, Google opened Wave and I found this platform really interesting. I wrote a few robots and extensions for it:</p>
+
+<ul>
+<li>
+<a href="https://launchpad.net/wavebiblebot">Flammard</a>, a Bible bot;</li>
+<li>
+<a href="https://launchpad.net/annoty">Annoty</a>, a generic, programmable, annotations bot.</li>
+</ul><h2>Others</h2>
+
+<p>I enjoy hacking programs that I find interesting and/or useful. When I find one that does almost what I'd like to achieve, I'm more than happy to contribute back my hacks. Git and github have tremendously made this easier, so it's become a habbit to fork and request merges. Such small contributions include:</p>
+
+<ul>
+<li>
+<a href="https://github.com/ripienaar/marionette-collective">mcollective</a>;</li>
+<li>
+<a href="https://github.com/DennisSchiefer/Project-OSRM-Web">OSRM</a>;</li>
+<li>
+<a href="https://github.com/robinluckey/ohcount">ohcount</a>;</li>
+<li>
+<a href="https://github.com/mattharrison/rst2odp">rst2odp</a>.</li>
+</ul>
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-33157896-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
